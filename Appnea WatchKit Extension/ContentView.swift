@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack() {
+            NavigationLink(destination: TimerView()) {
+                Text("Try a new Record")
+            }
+
+            NavigationLink(destination: RecordsList()) {
+                Text("List Records")
+            }
+
+        }.navigationBarTitle(Text("Appnea!"))
     }
 }
 
