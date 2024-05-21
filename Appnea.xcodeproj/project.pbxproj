@@ -3,67 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B617C5C223FCA4AA0074F6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C5C123FCA4AA0074F6A9 /* AppDelegate.swift */; };
-		B617C5C423FCA4AA0074F6A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C5C323FCA4AA0074F6A9 /* SceneDelegate.swift */; };
-		B617C5C623FCA4AA0074F6A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C5C523FCA4AA0074F6A9 /* ContentView.swift */; };
-		B617C5C823FCA4AB0074F6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617C5C723FCA4AB0074F6A9 /* Assets.xcassets */; };
-		B617C5CB23FCA4AB0074F6A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617C5CA23FCA4AB0074F6A9 /* Preview Assets.xcassets */; };
-		B617C5CE23FCA4AB0074F6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B617C5CC23FCA4AB0074F6A9 /* LaunchScreen.storyboard */; };
-		B617C5D323FCA4AB0074F6A9 /* Appnea WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B617C5D223FCA4AB0074F6A9 /* Appnea WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B617C5D923FCA4AB0074F6A9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B617C5D723FCA4AB0074F6A9 /* Interface.storyboard */; };
-		B617C5DB23FCA4AB0074F6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617C5DA23FCA4AB0074F6A9 /* Assets.xcassets */; };
-		B617C5E223FCA4AB0074F6A9 /* Appnea WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B617C5E123FCA4AB0074F6A9 /* Appnea WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B617C5E723FCA4AB0074F6A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C5E623FCA4AB0074F6A9 /* ContentView.swift */; };
-		B617C5E923FCA4AB0074F6A9 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C5E823FCA4AB0074F6A9 /* HostingController.swift */; };
-		B617C5EB23FCA4AB0074F6A9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C5EA23FCA4AB0074F6A9 /* ExtensionDelegate.swift */; };
-		B617C5ED23FCA4AB0074F6A9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C5EC23FCA4AB0074F6A9 /* ComplicationController.swift */; };
-		B617C5EF23FCA4AC0074F6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617C5EE23FCA4AC0074F6A9 /* Assets.xcassets */; };
-		B617C5F223FCA4AC0074F6A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617C5F123FCA4AC0074F6A9 /* Preview Assets.xcassets */; };
-		B617C60323FCA5DA0074F6A9 /* RecordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C60223FCA5DA0074F6A9 /* RecordsList.swift */; };
-		B617C60523FCA6090074F6A9 /* RecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C60423FCA6090074F6A9 /* RecordRow.swift */; };
-		B617C60723FCA6470074F6A9 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617C60623FCA6470074F6A9 /* TimerView.swift */; };
+		B60B7DA12BFC880C00163D80 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B7DA02BFC880C00163D80 /* Record.swift */; };
+		B60B7DA22BFC880C00163D80 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B7DA02BFC880C00163D80 /* Record.swift */; };
+		B63A27B52BFBAEB900E9241B /* AppneaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A27B42BFBAEB900E9241B /* AppneaApp.swift */; };
+		B63A27B72BFBAEB900E9241B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A27B62BFBAEB900E9241B /* ContentView.swift */; };
+		B63A27B92BFBAEBA00E9241B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63A27B82BFBAEBA00E9241B /* Assets.xcassets */; };
+		B63A27BC2BFBAEBA00E9241B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63A27BB2BFBAEBA00E9241B /* Preview Assets.xcassets */; };
+		B63A27C22BFBAEBA00E9241B /* Appnea Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B63A27C12BFBAEBA00E9241B /* Appnea Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B63A27C72BFBAEBA00E9241B /* AppneaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A27C62BFBAEBA00E9241B /* AppneaApp.swift */; };
+		B63A27C92BFBAEBA00E9241B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A27C82BFBAEBA00E9241B /* ContentView.swift */; };
+		B63A27CB2BFBAEBA00E9241B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63A27CA2BFBAEBA00E9241B /* Assets.xcassets */; };
+		B63A27CE2BFBAEBA00E9241B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63A27CD2BFBAEBA00E9241B /* Preview Assets.xcassets */; };
+		B63A27DD2BFBAFC700E9241B /* RecordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A27DC2BFBAFC700E9241B /* RecordsList.swift */; };
+		B63A27DE2BFBAFC700E9241B /* RecordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A27DC2BFBAFC700E9241B /* RecordsList.swift */; };
+		B63A27E02BFBB00100E9241B /* RecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A27DF2BFBB00100E9241B /* RecordRow.swift */; };
+		B63A27E12BFBB00100E9241B /* RecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A27DF2BFBB00100E9241B /* RecordRow.swift */; };
+		B671A5602BFCF94600DEA789 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B671A55F2BFCF94600DEA789 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B617C5D423FCA4AB0074F6A9 /* PBXContainerItemProxy */ = {
+		B63A27C32BFBAEBA00E9241B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B617C5B623FCA4AA0074F6A9 /* Project object */;
+			containerPortal = B63A27A92BFBAEB900E9241B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B617C5D123FCA4AB0074F6A9;
-			remoteInfo = "Appnea WatchKit App";
-		};
-		B617C5E323FCA4AB0074F6A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B617C5B623FCA4AA0074F6A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B617C5E023FCA4AB0074F6A9;
-			remoteInfo = "Appnea WatchKit Extension";
+			remoteGlobalIDString = B63A27C02BFBAEBA00E9241B;
+			remoteInfo = "Appnea Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B617C5F923FCA4AC0074F6A9 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				B617C5E223FCA4AB0074F6A9 /* Appnea WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B617C5FD23FCA4AC0074F6A9 /* Embed Watch Content */ = {
+		B63A27D42BFBAEBA00E9241B /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				B617C5D323FCA4AB0074F6A9 /* Appnea WatchKit App.app in Embed Watch Content */,
+				B63A27C22BFBAEBA00E9241B /* Appnea Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,40 +50,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B617C5BE23FCA4AA0074F6A9 /* Appnea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appnea.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B617C5C123FCA4AA0074F6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B617C5C323FCA4AA0074F6A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B617C5C523FCA4AA0074F6A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B617C5C723FCA4AB0074F6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B617C5CA23FCA4AB0074F6A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B617C5CD23FCA4AB0074F6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B617C5CF23FCA4AB0074F6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B617C5D223FCA4AB0074F6A9 /* Appnea WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appnea WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B617C5D823FCA4AB0074F6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		B617C5DA23FCA4AB0074F6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B617C5DC23FCA4AB0074F6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B617C5E123FCA4AB0074F6A9 /* Appnea WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Appnea WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B617C5E623FCA4AB0074F6A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B617C5E823FCA4AB0074F6A9 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
-		B617C5EA23FCA4AB0074F6A9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		B617C5EC23FCA4AB0074F6A9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		B617C5EE23FCA4AC0074F6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B617C5F123FCA4AC0074F6A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B617C5F323FCA4AC0074F6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B617C60223FCA5DA0074F6A9 /* RecordsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsList.swift; sourceTree = "<group>"; };
-		B617C60423FCA6090074F6A9 /* RecordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRow.swift; sourceTree = "<group>"; };
-		B617C60623FCA6470074F6A9 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		B60B7DA02BFC880C00163D80 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		B63A27B12BFBAEB900E9241B /* Appnea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appnea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63A27B42BFBAEB900E9241B /* AppneaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppneaApp.swift; sourceTree = "<group>"; };
+		B63A27B62BFBAEB900E9241B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B63A27B82BFBAEBA00E9241B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63A27BB2BFBAEBA00E9241B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B63A27C12BFBAEBA00E9241B /* Appnea Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appnea Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63A27C62BFBAEBA00E9241B /* AppneaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppneaApp.swift; sourceTree = "<group>"; };
+		B63A27C82BFBAEBA00E9241B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B63A27CA2BFBAEBA00E9241B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63A27CD2BFBAEBA00E9241B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B63A27DC2BFBAFC700E9241B /* RecordsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsList.swift; sourceTree = "<group>"; };
+		B63A27DF2BFBB00100E9241B /* RecordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRow.swift; sourceTree = "<group>"; };
+		B671A55F2BFCF94600DEA789 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B617C5BB23FCA4AA0074F6A9 /* Frameworks */ = {
+		B63A27AE2BFBAEB900E9241B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B617C5DE23FCA4AB0074F6A9 /* Frameworks */ = {
+		B63A27BE2BFBAEBA00E9241B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,287 +84,224 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B617C5B523FCA4AA0074F6A9 = {
+		B60B7D9F2BFC87EF00163D80 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B617C5C023FCA4AA0074F6A9 /* Appnea */,
-				B617C5D623FCA4AB0074F6A9 /* Appnea WatchKit App */,
-				B617C5E523FCA4AB0074F6A9 /* Appnea WatchKit Extension */,
-				B617C5BF23FCA4AA0074F6A9 /* Products */,
+				B63A27DC2BFBAFC700E9241B /* RecordsList.swift */,
+				B63A27DF2BFBB00100E9241B /* RecordRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B63A27A82BFBAEB900E9241B = {
+			isa = PBXGroup;
+			children = (
+				B63A27B32BFBAEB900E9241B /* Appnea */,
+				B63A27D82BFBAF5A00E9241B /* Shared */,
+				B63A27C52BFBAEBA00E9241B /* Appnea Watch App */,
+				B63A27B22BFBAEB900E9241B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B617C5BF23FCA4AA0074F6A9 /* Products */ = {
+		B63A27B22BFBAEB900E9241B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B617C5BE23FCA4AA0074F6A9 /* Appnea.app */,
-				B617C5D223FCA4AB0074F6A9 /* Appnea WatchKit App.app */,
-				B617C5E123FCA4AB0074F6A9 /* Appnea WatchKit Extension.appex */,
+				B63A27B12BFBAEB900E9241B /* Appnea.app */,
+				B63A27C12BFBAEBA00E9241B /* Appnea Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B617C5C023FCA4AA0074F6A9 /* Appnea */ = {
+		B63A27B32BFBAEB900E9241B /* Appnea */ = {
 			isa = PBXGroup;
 			children = (
-				B617C5C123FCA4AA0074F6A9 /* AppDelegate.swift */,
-				B617C5C323FCA4AA0074F6A9 /* SceneDelegate.swift */,
-				B617C5C523FCA4AA0074F6A9 /* ContentView.swift */,
-				B617C5C723FCA4AB0074F6A9 /* Assets.xcassets */,
-				B617C5CC23FCA4AB0074F6A9 /* LaunchScreen.storyboard */,
-				B617C5CF23FCA4AB0074F6A9 /* Info.plist */,
-				B617C5C923FCA4AB0074F6A9 /* Preview Content */,
+				B63A27B42BFBAEB900E9241B /* AppneaApp.swift */,
+				B63A27B62BFBAEB900E9241B /* ContentView.swift */,
+				B63A27B82BFBAEBA00E9241B /* Assets.xcassets */,
+				B63A27BA2BFBAEBA00E9241B /* Preview Content */,
 			);
 			path = Appnea;
 			sourceTree = "<group>";
 		};
-		B617C5C923FCA4AB0074F6A9 /* Preview Content */ = {
+		B63A27BA2BFBAEBA00E9241B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B617C5CA23FCA4AB0074F6A9 /* Preview Assets.xcassets */,
+				B63A27BB2BFBAEBA00E9241B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B617C5D623FCA4AB0074F6A9 /* Appnea WatchKit App */ = {
+		B63A27C52BFBAEBA00E9241B /* Appnea Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				B617C5D723FCA4AB0074F6A9 /* Interface.storyboard */,
-				B617C5DA23FCA4AB0074F6A9 /* Assets.xcassets */,
-				B617C5DC23FCA4AB0074F6A9 /* Info.plist */,
+				B63A27C62BFBAEBA00E9241B /* AppneaApp.swift */,
+				B63A27C82BFBAEBA00E9241B /* ContentView.swift */,
+				B63A27CA2BFBAEBA00E9241B /* Assets.xcassets */,
+				B63A27CC2BFBAEBA00E9241B /* Preview Content */,
+				B671A55F2BFCF94600DEA789 /* TimerView.swift */,
 			);
-			path = "Appnea WatchKit App";
+			path = "Appnea Watch App";
 			sourceTree = "<group>";
 		};
-		B617C5E523FCA4AB0074F6A9 /* Appnea WatchKit Extension */ = {
+		B63A27CC2BFBAEBA00E9241B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B617C60123FCA51F0074F6A9 /* Views */,
-				B617C5E623FCA4AB0074F6A9 /* ContentView.swift */,
-				B617C5E823FCA4AB0074F6A9 /* HostingController.swift */,
-				B617C5EA23FCA4AB0074F6A9 /* ExtensionDelegate.swift */,
-				B617C5EC23FCA4AB0074F6A9 /* ComplicationController.swift */,
-				B617C5EE23FCA4AC0074F6A9 /* Assets.xcassets */,
-				B617C5F323FCA4AC0074F6A9 /* Info.plist */,
-				B617C5F023FCA4AC0074F6A9 /* Preview Content */,
-			);
-			path = "Appnea WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		B617C5F023FCA4AC0074F6A9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B617C5F123FCA4AC0074F6A9 /* Preview Assets.xcassets */,
+				B63A27CD2BFBAEBA00E9241B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B617C60123FCA51F0074F6A9 /* Views */ = {
+		B63A27D82BFBAF5A00E9241B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				B617C60223FCA5DA0074F6A9 /* RecordsList.swift */,
-				B617C60423FCA6090074F6A9 /* RecordRow.swift */,
-				B617C60623FCA6470074F6A9 /* TimerView.swift */,
+				B60B7DA02BFC880C00163D80 /* Record.swift */,
+				B60B7D9F2BFC87EF00163D80 /* Views */,
 			);
-			path = Views;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B617C5BD23FCA4AA0074F6A9 /* Appnea */ = {
+		B63A27B02BFBAEB900E9241B /* Appnea */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B617C5FE23FCA4AC0074F6A9 /* Build configuration list for PBXNativeTarget "Appnea" */;
+			buildConfigurationList = B63A27D52BFBAEBA00E9241B /* Build configuration list for PBXNativeTarget "Appnea" */;
 			buildPhases = (
-				B617C5BA23FCA4AA0074F6A9 /* Sources */,
-				B617C5BB23FCA4AA0074F6A9 /* Frameworks */,
-				B617C5BC23FCA4AA0074F6A9 /* Resources */,
-				B617C5FD23FCA4AC0074F6A9 /* Embed Watch Content */,
+				B63A27AD2BFBAEB900E9241B /* Sources */,
+				B63A27AE2BFBAEB900E9241B /* Frameworks */,
+				B63A27AF2BFBAEB900E9241B /* Resources */,
+				B63A27D42BFBAEBA00E9241B /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B617C5D523FCA4AB0074F6A9 /* PBXTargetDependency */,
+				B63A27C42BFBAEBA00E9241B /* PBXTargetDependency */,
 			);
 			name = Appnea;
 			productName = Appnea;
-			productReference = B617C5BE23FCA4AA0074F6A9 /* Appnea.app */;
+			productReference = B63A27B12BFBAEB900E9241B /* Appnea.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B617C5D123FCA4AB0074F6A9 /* Appnea WatchKit App */ = {
+		B63A27C02BFBAEBA00E9241B /* Appnea Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B617C5FA23FCA4AC0074F6A9 /* Build configuration list for PBXNativeTarget "Appnea WatchKit App" */;
+			buildConfigurationList = B63A27D12BFBAEBA00E9241B /* Build configuration list for PBXNativeTarget "Appnea Watch App" */;
 			buildPhases = (
-				B617C5D023FCA4AB0074F6A9 /* Resources */,
-				B617C5F923FCA4AC0074F6A9 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B617C5E423FCA4AB0074F6A9 /* PBXTargetDependency */,
-			);
-			name = "Appnea WatchKit App";
-			productName = "Appnea WatchKit App";
-			productReference = B617C5D223FCA4AB0074F6A9 /* Appnea WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		B617C5E023FCA4AB0074F6A9 /* Appnea WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B617C5F623FCA4AC0074F6A9 /* Build configuration list for PBXNativeTarget "Appnea WatchKit Extension" */;
-			buildPhases = (
-				B617C5DD23FCA4AB0074F6A9 /* Sources */,
-				B617C5DE23FCA4AB0074F6A9 /* Frameworks */,
-				B617C5DF23FCA4AB0074F6A9 /* Resources */,
+				B63A27BD2BFBAEBA00E9241B /* Sources */,
+				B63A27BE2BFBAEBA00E9241B /* Frameworks */,
+				B63A27BF2BFBAEBA00E9241B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Appnea WatchKit Extension";
-			productName = "Appnea WatchKit Extension";
-			productReference = B617C5E123FCA4AB0074F6A9 /* Appnea WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = "Appnea Watch App";
+			productName = "Appnea Watch App";
+			productReference = B63A27C12BFBAEBA00E9241B /* Appnea Watch App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B617C5B623FCA4AA0074F6A9 /* Project object */ = {
+		B63A27A92BFBAEB900E9241B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1300;
-				ORGANIZATIONNAME = "Rubén Gómez Olivencia";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					B617C5BD23FCA4AA0074F6A9 = {
-						CreatedOnToolsVersion = 11.3.1;
+					B63A27B02BFBAEB900E9241B = {
+						CreatedOnToolsVersion = 15.3;
 					};
-					B617C5D123FCA4AB0074F6A9 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
-					B617C5E023FCA4AB0074F6A9 = {
-						CreatedOnToolsVersion = 11.3.1;
+					B63A27C02BFBAEBA00E9241B = {
+						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = B617C5B923FCA4AA0074F6A9 /* Build configuration list for PBXProject "Appnea" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = B63A27AC2BFBAEB900E9241B /* Build configuration list for PBXProject "Appnea" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B617C5B523FCA4AA0074F6A9;
-			productRefGroup = B617C5BF23FCA4AA0074F6A9 /* Products */;
+			mainGroup = B63A27A82BFBAEB900E9241B;
+			productRefGroup = B63A27B22BFBAEB900E9241B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B617C5BD23FCA4AA0074F6A9 /* Appnea */,
-				B617C5D123FCA4AB0074F6A9 /* Appnea WatchKit App */,
-				B617C5E023FCA4AB0074F6A9 /* Appnea WatchKit Extension */,
+				B63A27B02BFBAEB900E9241B /* Appnea */,
+				B63A27C02BFBAEBA00E9241B /* Appnea Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B617C5BC23FCA4AA0074F6A9 /* Resources */ = {
+		B63A27AF2BFBAEB900E9241B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B617C5CE23FCA4AB0074F6A9 /* LaunchScreen.storyboard in Resources */,
-				B617C5CB23FCA4AB0074F6A9 /* Preview Assets.xcassets in Resources */,
-				B617C5C823FCA4AB0074F6A9 /* Assets.xcassets in Resources */,
+				B63A27BC2BFBAEBA00E9241B /* Preview Assets.xcassets in Resources */,
+				B63A27B92BFBAEBA00E9241B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B617C5D023FCA4AB0074F6A9 /* Resources */ = {
+		B63A27BF2BFBAEBA00E9241B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B617C5DB23FCA4AB0074F6A9 /* Assets.xcassets in Resources */,
-				B617C5D923FCA4AB0074F6A9 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B617C5DF23FCA4AB0074F6A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B617C5F223FCA4AC0074F6A9 /* Preview Assets.xcassets in Resources */,
-				B617C5EF23FCA4AC0074F6A9 /* Assets.xcassets in Resources */,
+				B63A27CE2BFBAEBA00E9241B /* Preview Assets.xcassets in Resources */,
+				B63A27CB2BFBAEBA00E9241B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B617C5BA23FCA4AA0074F6A9 /* Sources */ = {
+		B63A27AD2BFBAEB900E9241B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B617C5C223FCA4AA0074F6A9 /* AppDelegate.swift in Sources */,
-				B617C5C423FCA4AA0074F6A9 /* SceneDelegate.swift in Sources */,
-				B617C5C623FCA4AA0074F6A9 /* ContentView.swift in Sources */,
+				B63A27B72BFBAEB900E9241B /* ContentView.swift in Sources */,
+				B63A27E02BFBB00100E9241B /* RecordRow.swift in Sources */,
+				B60B7DA12BFC880C00163D80 /* Record.swift in Sources */,
+				B63A27B52BFBAEB900E9241B /* AppneaApp.swift in Sources */,
+				B63A27DD2BFBAFC700E9241B /* RecordsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B617C5DD23FCA4AB0074F6A9 /* Sources */ = {
+		B63A27BD2BFBAEBA00E9241B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B617C60723FCA6470074F6A9 /* TimerView.swift in Sources */,
-				B617C5E923FCA4AB0074F6A9 /* HostingController.swift in Sources */,
-				B617C5ED23FCA4AB0074F6A9 /* ComplicationController.swift in Sources */,
-				B617C5E723FCA4AB0074F6A9 /* ContentView.swift in Sources */,
-				B617C60323FCA5DA0074F6A9 /* RecordsList.swift in Sources */,
-				B617C5EB23FCA4AB0074F6A9 /* ExtensionDelegate.swift in Sources */,
-				B617C60523FCA6090074F6A9 /* RecordRow.swift in Sources */,
+				B671A5602BFCF94600DEA789 /* TimerView.swift in Sources */,
+				B63A27C92BFBAEBA00E9241B /* ContentView.swift in Sources */,
+				B63A27E12BFBB00100E9241B /* RecordRow.swift in Sources */,
+				B60B7DA22BFC880C00163D80 /* Record.swift in Sources */,
+				B63A27C72BFBAEBA00E9241B /* AppneaApp.swift in Sources */,
+				B63A27DE2BFBAFC700E9241B /* RecordsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B617C5D523FCA4AB0074F6A9 /* PBXTargetDependency */ = {
+		B63A27C42BFBAEBA00E9241B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B617C5D123FCA4AB0074F6A9 /* Appnea WatchKit App */;
-			targetProxy = B617C5D423FCA4AB0074F6A9 /* PBXContainerItemProxy */;
-		};
-		B617C5E423FCA4AB0074F6A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B617C5E023FCA4AB0074F6A9 /* Appnea WatchKit Extension */;
-			targetProxy = B617C5E323FCA4AB0074F6A9 /* PBXContainerItemProxy */;
+			target = B63A27C02BFBAEBA00E9241B /* Appnea Watch App */;
+			targetProxy = B63A27C32BFBAEBA00E9241B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		B617C5CC23FCA4AB0074F6A9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B617C5CD23FCA4AB0074F6A9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B617C5D723FCA4AB0074F6A9 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B617C5D823FCA4AB0074F6A9 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		B617C5F423FCA4AC0074F6A9 /* Debug */ = {
+		B63A27CF2BFBAEBA00E9241B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -424,7 +331,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -438,24 +346,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B617C5F523FCA4AC0074F6A9 /* Release */ = {
+		B63A27D02BFBAEBA00E9241B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -485,7 +392,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -493,182 +401,168 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B63A27D22BFBAEBA00E9241B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Appnea Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Appnea;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yuki.Appnea;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuki.Appnea.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		B63A27D32BFBAEBA00E9241B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Appnea Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Appnea;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yuki.Appnea;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuki.Appnea.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
 			};
 			name = Release;
 		};
-		B617C5F723FCA4AC0074F6A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Appnea WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = CQ46EGSCJG;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Appnea WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = yuki.Appnea.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
-			};
-			name = Debug;
-		};
-		B617C5F823FCA4AC0074F6A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Appnea WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = CQ46EGSCJG;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Appnea WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = yuki.Appnea.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
-			};
-			name = Release;
-		};
-		B617C5FB23FCA4AC0074F6A9 /* Debug */ = {
+		B63A27D62BFBAEBA00E9241B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CQ46EGSCJG;
-				IBSC_MODULE = Appnea_WatchKit_Extension;
-				INFOPLIST_FILE = "Appnea WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = yuki.Appnea.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
-			};
-			name = Debug;
-		};
-		B617C5FC23FCA4AC0074F6A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CQ46EGSCJG;
-				IBSC_MODULE = Appnea_WatchKit_Extension;
-				INFOPLIST_FILE = "Appnea WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = yuki.Appnea.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
-			};
-			name = Release;
-		};
-		B617C5FF23FCA4AC0074F6A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appnea/Preview Content\"";
-				DEVELOPMENT_TEAM = CQ46EGSCJG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Appnea/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Appnea;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yuki.Appnea;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuki.Appnea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B617C60023FCA4AC0074F6A9 /* Release */ = {
+		B63A27D72BFBAEBA00E9241B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appnea/Preview Content\"";
-				DEVELOPMENT_TEAM = CQ46EGSCJG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Appnea/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Appnea;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yuki.Appnea;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuki.Appnea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B617C5B923FCA4AA0074F6A9 /* Build configuration list for PBXProject "Appnea" */ = {
+		B63A27AC2BFBAEB900E9241B /* Build configuration list for PBXProject "Appnea" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B617C5F423FCA4AC0074F6A9 /* Debug */,
-				B617C5F523FCA4AC0074F6A9 /* Release */,
+				B63A27CF2BFBAEBA00E9241B /* Debug */,
+				B63A27D02BFBAEBA00E9241B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B617C5F623FCA4AC0074F6A9 /* Build configuration list for PBXNativeTarget "Appnea WatchKit Extension" */ = {
+		B63A27D12BFBAEBA00E9241B /* Build configuration list for PBXNativeTarget "Appnea Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B617C5F723FCA4AC0074F6A9 /* Debug */,
-				B617C5F823FCA4AC0074F6A9 /* Release */,
+				B63A27D22BFBAEBA00E9241B /* Debug */,
+				B63A27D32BFBAEBA00E9241B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B617C5FA23FCA4AC0074F6A9 /* Build configuration list for PBXNativeTarget "Appnea WatchKit App" */ = {
+		B63A27D52BFBAEBA00E9241B /* Build configuration list for PBXNativeTarget "Appnea" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B617C5FB23FCA4AC0074F6A9 /* Debug */,
-				B617C5FC23FCA4AC0074F6A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B617C5FE23FCA4AC0074F6A9 /* Build configuration list for PBXNativeTarget "Appnea" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B617C5FF23FCA4AC0074F6A9 /* Debug */,
-				B617C60023FCA4AC0074F6A9 /* Release */,
+				B63A27D62BFBAEBA00E9241B /* Debug */,
+				B63A27D72BFBAEBA00E9241B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B617C5B623FCA4AA0074F6A9 /* Project object */;
+	rootObject = B63A27A92BFBAEB900E9241B /* Project object */;
 }
